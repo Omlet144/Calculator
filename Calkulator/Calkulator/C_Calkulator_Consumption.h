@@ -11,7 +11,7 @@ namespace calkulator {
 			 void Fuel_Consumption_And_Get_Price(float liter, float price, float km) override
 			{
 				this->liter = km / 10;
-				std::cout << "Per your kilometer " << this->liter << " Liters needed\n";
+				std::cout << "On your "<< km <<" kmr you needed "<< this->liter << " liters\n";
 
 			}
 

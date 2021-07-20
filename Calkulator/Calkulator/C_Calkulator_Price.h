@@ -3,7 +3,7 @@
 #include "C_Calkulator.h"
 
 namespace calkulator {
-	namespace inner_consumption
+	namespace inner_price
 	{
 		class C_Calkulator_Price :
 			public C_Calkulator
@@ -11,8 +11,8 @@ namespace calkulator {
 		public:
 			void Fuel_Consumption_And_Get_Price(float liter, float price, float km) override
 			{
-				this->price = km / 10;
-				std::cout << "Per your kilometer " << this->liter << " Liters needed\n";
+				this->price = price * liter;
+				std::cout << "Refueling for "<<liter << " liters = " << this->price<<" $\n";
 
 			}
 
