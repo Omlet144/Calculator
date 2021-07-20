@@ -142,10 +142,12 @@
     <ClCompile Include="Calkulator.cpp" />
     <ClCompile Include="C_Calkulator.cpp" />
     <ClCompile Include="C_Calkulator_Consumption.cpp" />
+    <ClCompile Include="C_Calkulator_Price.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Calkulator.h" />
     <ClInclude Include="C_Calkulator_Consumption.h" />
+    <ClInclude Include="C_Calkulator_Price.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
