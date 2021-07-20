@@ -21,9 +21,15 @@
     <ClCompile Include="C_Calkulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C_Calkulator_Consumption.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C_Calkulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Calkulator_Consumption.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
