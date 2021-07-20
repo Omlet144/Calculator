@@ -18,12 +18,12 @@
     <ClCompile Include="Calkulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C_Kilometer.cpp">
+    <ClCompile Include="C_Calkulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C_Kilometer.h">
+    <ClInclude Include="C_Calkulator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

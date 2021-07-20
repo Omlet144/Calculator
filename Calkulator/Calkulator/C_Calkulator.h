@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-namespace kilometr {
+namespace calkulator {
 #pragma region pure virtual class
 		class C_Calkulator
 		{
